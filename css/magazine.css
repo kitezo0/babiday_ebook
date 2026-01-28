@@ -1,3 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
 body {
 	overflow: hidden;
 	background-color: #fff4eb;
@@ -381,4 +391,35 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+
+/* 버튼 */
+.btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 99;
+    text-align: center;
+}
+.btn li{
+    margin-top: 10px;
+}
+.btn li a{
+    display: inline-block;
+    color: #ffa600;
+    font-weight: 700;
+    background-color: #fff;
+    border: 2px solid #ffa600;
+    border-radius: 50px;
+    padding: 5px 15px;
+    box-shadow: 0 0 7px #f88010;
+    transition: all 0.5s;    
+}
+.btn li a:hover{
+    display: inline-block;
+    color: #fff;
+    background-color: #ffa600;
+    border: 2px solid #ffa600;
+    transform: scale(1.1);
+    transition: all 0.5s;    
 }
